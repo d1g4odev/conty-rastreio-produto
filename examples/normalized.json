@@ -1,0 +1,54 @@
+{
+  "code": "QB123456789BR",
+  "carrier": "correios",
+  "status": "out_for_delivery",
+  "registeredAt": "2026-10-04T15:00:00.000Z",
+  "lastSyncedAt": "2026-10-04T15:00:00.000Z",
+  "delay": {
+    "limitHours": 120,
+    "startedAt": "2026-10-01T12:12:00.000Z",
+    "transitHours": 74.8,
+    "delayed": false
+  },
+  "history": [
+    {
+      "occurredAt": "2026-10-01T12:12:00.000Z",
+      "status": "posted",
+      "rawStatus": "PO",
+      "description": "Objeto postado",
+      "location": "São Paulo - SP"
+    },
+    {
+      "occurredAt": "2026-10-03T01:40:00.000Z",
+      "status": "in_transit",
+      "rawStatus": "RO",
+      "description": "Objeto em trânsito - por favor aguarde",
+      "location": "Cajamar - SP"
+    },
+    {
+      "occurredAt": "2026-10-03T14:10:00.000Z",
+      "status": "in_transit",
+      "rawStatus": "RO",
+      "description": "Objeto em trânsito - por favor aguarde",
+      "location": "Rio de Janeiro - RJ"
+    },
+    {
+      "occurredAt": "2026-10-04T11:05:00.000Z",
+      "status": "out_for_delivery",
+      "rawStatus": "OEC",
+      "description": "Objeto saiu para entrega ao destinatário",
+      "location": "Rio de Janeiro - RJ"
+    },
+    {
+      "occurredAt": "2026-10-04T13:30:00.000Z",
+      "status": null,
+      "rawStatus": "XLD",
+      "description": "Objeto em análise na unidade",
+      "location": "Rio de Janeiro - RJ"
+    }
+  ],
+  "sync": {
+    "addedEvents": 5,
+    "discardedEvents": 1
+  }
+}
