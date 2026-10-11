@@ -1,0 +1,27 @@
+{
+  "tracking_code": "JD000123456789",
+  "carrier": { "slug": "jadlog", "name": "Jadlog" },
+  "events": [
+    {
+      "id": "jd-1",
+      "status": "EMISSAO",
+      "description": "Emissão do CT-e",
+      "occurred_at": "2026-10-08T11:00:00-03:00",
+      "location": { "city": "Curitiba", "state": "PR" }
+    },
+    {
+      "id": "jd-2",
+      "status": "TRANSFERENCIA",
+      "description": "Em transferência para a unidade de destino",
+      "occurred_at": "2026-10-09T03:20:00-03:00",
+      "location": { "city": "Curitiba", "state": "PR" }
+    },
+    {
+      "id": "jd-3",
+      "status": "NAO ENTREGUE - ENDERECO INCORRETO",
+      "description": "Status novo da transportadora ainda não mapeado",
+      "occurred_at": "2026-10-09T16:45:00-03:00",
+      "location": { "city": "Florianópolis", "state": "SC" }
+    }
+  ]
+}

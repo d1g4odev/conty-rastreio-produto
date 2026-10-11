@@ -1,0 +1,52 @@
+{
+  "tracking_code": "QB123456789BR",
+  "carrier": { "slug": "correios", "name": "Correios" },
+  "events": [
+    {
+      "id": "evt_9f2a",
+      "status": "OEC",
+      "description": "Objeto saiu para entrega ao destinatário",
+      "occurred_at": "2026-10-04T08:05:00-03:00",
+      "location": { "city": "Rio de Janeiro", "state": "RJ" }
+    },
+    {
+      "id": "evt_1c07",
+      "status": "PO",
+      "description": "Objeto postado",
+      "occurred_at": "2026-10-01T09:12:00-03:00",
+      "location": { "city": "São Paulo", "state": "SP" }
+    },
+    {
+      "id": "evt_4b11",
+      "status": "RO",
+      "description": "Objeto em trânsito - por favor aguarde",
+      "occurred_at": "2026-10-02T22:40:00-03:00",
+      "location": { "city": "Cajamar", "state": "SP" }
+    },
+    {
+      "id": "evt_4b11",
+      "status": "RO",
+      "description": "Objeto em trânsito - por favor aguarde",
+      "occurred_at": "2026-10-02T22:40:00-03:00",
+      "location": { "city": "Cajamar", "state": "SP" }
+    },
+    {
+      "status": "RO",
+      "description": "Objeto em trânsito - por favor aguarde",
+      "occurred_at": "2026-10-03T14:10:00Z",
+      "location": { "city": "Rio de Janeiro", "state": "RJ" }
+    },
+    {
+      "id": "evt_77d0",
+      "status": "XLD",
+      "description": "Objeto em análise na unidade",
+      "occurred_at": "2026-10-04T10:30:00-03:00",
+      "location": { "city": "Rio de Janeiro", "state": "RJ" }
+    },
+    {
+      "id": "evt_broken",
+      "status": "BDE",
+      "description": "Evento sem data vindo do agregador"
+    }
+  ]
+}
